@@ -1906,11 +1906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tmutongi\\source\\repos\\UkraineAssesment\\UkraineAssesment\\UkraineAssesment.csproj",
+      "projectUniqueName": "C:\\Users\\tmutongi\\source\\repos\\interview\\UkraineAssesment\\UkraineAssesment\\UkraineAssesment.csproj",
       "projectName": "UkraineAssesment",
-      "projectPath": "C:\\Users\\tmutongi\\source\\repos\\UkraineAssesment\\UkraineAssesment\\UkraineAssesment.csproj",
+      "projectPath": "C:\\Users\\tmutongi\\source\\repos\\interview\\UkraineAssesment\\UkraineAssesment\\UkraineAssesment.csproj",
       "packagesPath": "C:\\Users\\tmutongi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tmutongi\\source\\repos\\UkraineAssesment\\UkraineAssesment\\obj\\",
+      "outputPath": "C:\\Users\\tmutongi\\source\\repos\\interview\\UkraineAssesment\\UkraineAssesment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

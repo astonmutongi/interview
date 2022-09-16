@@ -7,14 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(opts => opts.JsonSerializerOptions.PropertyNamingPolicy = null); ;
 var configuration = builder.Configuration;
 builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(configuration.GetConnectionString("ApplicationConnection")));
 builder.Services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(@"c:\temp-keys\")).SetApplicationName("Assessment"); ;
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy", builder => builder.WithOrigins(
-            "http://localhost:50550"            
+            "http://localhost:50234"
         )
         .AllowAnyHeader()
         .AllowAnyMethod()
@@ -26,6 +26,8 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.UseCors("CorsPolicy");
+
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

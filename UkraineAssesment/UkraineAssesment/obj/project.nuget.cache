@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GdKkvaDgRY2etNXGf+dae4HRVvEzRQ9sy8+J8NmJTzewQWkRulO6kKqNDEEZ+obCm6vfFPSoqhBjktq7eHSWrQ==",
+  "dgSpecHash": "WsfllttTQThC0xDHzDfRupSO1IWMuHYS+wuuuC6zfEz/sgpw2FX9ZjtxAW5Jl3PtOR7nB2nUdqaSBv3NcwrVhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tmutongi\\source\\repos\\UkraineAssesment\\UkraineAssesment\\UkraineAssesment.csproj",
+  "projectFilePath": "C:\\Users\\tmutongi\\source\\repos\\interview\\UkraineAssesment\\UkraineAssesment\\UkraineAssesment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tmutongi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tmutongi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.9\\microsoft.aspnetcore.authentication.jwtbearer.6.0.9.nupkg.sha512",
